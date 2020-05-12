@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    float y;
+    std::cin >> x;
+    std::cin >> y;
+    if(x%5==0&&x<(y-0.50))
+    {
+        std::cout <<y-x-0.50 << std::endl;
+    }
+    else
+    { 
+        std::cout << y << std::endl;
+    }
+    
+       
+    
+	
+	return 0;
+}
